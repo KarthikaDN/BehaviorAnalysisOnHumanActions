@@ -1,0 +1,10 @@
+h2 {
+  color: white;
+}
+input {
+  color: white;
+}
+input:hover {
+  cursor: pointer;
+  color: rgb(43, 255, 0);
+}

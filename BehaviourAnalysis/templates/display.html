@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    {% if filename %}
+	<div style="margin: 10px auto;">
+		<video autoplay="autoplay" controls="controls" preload="preload">
+			<source src="../static/uploads/{{filename}}" type="video/mp4"></source>
+		</video>
+	</div>
+{% endif %}
+  </body>
+</html>

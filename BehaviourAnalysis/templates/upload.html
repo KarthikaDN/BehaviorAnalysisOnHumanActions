@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body class="container" style="background: #353030">
+    <h2>Count of People</h2>
+    <hr />
+    <form method="post" action="/uploadForCount" enctype="multipart/form-data">
+      <dl>
+        <p>
+          <input type="file" name="file" autocomplete="off" required />
+        </p>
+      </dl>
+      <p>
+        <!-- <a href="" class="btn btn-success" type="submit">Upload</a> -->
+        <button class="btn btn-success" type="submit">Upload</button>
+      </p>
+    </form>
+    <br />
+    <hr style="height: 10px; background: whitesmoke" />
+    <br />
+    <h2>Detect Helmet</h2>
+    <hr />
+    <form method="post" action="/uploadForhelmet" enctype="multipart/form-data">
+      <dl>
+        <p>
+          <input type="file" name="file" autocomplete="off" required />
+        </p>
+      </dl>
+      <p>
+        <!-- <a href="" class="btn btn-success" type="submit">Upload</a> -->
+        <button class="btn btn-success" type="submit">Upload</button>
+      </p>
+    </form>
+    <br />
+    <hr style="height: 10px; background: whitesmoke" />
+    <br />
+    <h2>Pose Based Abnormal Behaviour</h2>
+    <hr />
+    <form method="post" action="/uploadForPose" enctype="multipart/form-data">
+      <dl>
+        <p>
+          <input type="file" name="file" autocomplete="off" required />
+        </p>
+      </dl>
+      <p>
+        <!-- <a href="" class="btn btn-success" type="submit">Upload</a> -->
+        <button class="btn btn-success" type="submit">Upload</button>
+      </p>
+    </form>
+  </body>
+</html>
